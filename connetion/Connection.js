@@ -6,8 +6,6 @@ const {errorHandler,ValidationError} = require('./middleware/errorhandler');
 class Server {
 ///hello
 
-//add new comments
-
   constructor() {
     this.express = require('express');
     this.app = this.express();
